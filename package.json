@@ -1,0 +1,33 @@
+{
+  "name": "stevejobs-server",
+  "version": "0.0.0",
+  "description": "A remote server instance hosting a single instance in-memory SteveJobs worker/job/task/queue process",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/stevejobs-server.git"
+  },
+  "dependencies": {
+    "stevejobs": "0.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.9.x"
+  },
+  "keywords": [
+    "remote",
+    "worker",
+    "process",
+    "job",
+    "queue",
+    "task"
+  ],
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com> (http://arnorhs.com/)",
+  "license": "MIT",
+  "gitHead": "20bea761270bdfb572cd0e22fdf1ac494a8fc5a9"
+}
