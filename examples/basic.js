@@ -2,7 +2,6 @@ var Steve = require('../index');
 
 var server = Steve({
     port: 1337,
-    workers: 1,
     delay: 2000 // ms
 });
 
