@@ -14,7 +14,8 @@
     "url": "git://github.com/arnorhs/stevejobs-server.git"
   },
   "dependencies": {
-    "stevejobs": "0.0.x"
+    "stevejobs": "0.0.x",
+    "xtend": "2.x"
   },
   "devDependencies": {
     "mocha": "1.9.x"
