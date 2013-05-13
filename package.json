@@ -1,6 +1,6 @@
 {
   "name": "stevejobs-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A remote server instance hosting a single instance in-memory SteveJobs worker/job/task/queue process",
   "main": "index.js",
   "directories": {
@@ -18,7 +18,8 @@
     "xtend": "2.x"
   },
   "devDependencies": {
-    "mocha": "1.9.x"
+    "mocha": "1.9.x",
+    "request": "2.21.x"
   },
   "keywords": [
     "remote",
