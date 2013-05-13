@@ -28,3 +28,8 @@ SteveJobsServer.prototype.listen = function() {
     this.start();
     this.http.listen(parseInt(this.options.port, 10));
 };
+
+SteveJobsServer.prototype.close = function() {
+    this.stop();
+    this.http.close();
+};
